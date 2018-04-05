@@ -41,3 +41,9 @@ repositories {
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
 }
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.adyen.reportMerger.runners.Main'
+    }
+}
