@@ -12,6 +12,7 @@ This tool allows you, through an user interface, to choose a sequence of already
 ## Basic usage instructions:
 
 1. Run project
+	- `./gradlew build && ./gradlew run`
 	
 2. Select the report you would like to get/merge in the combo box 'Report type'. This tool for now is just available for these reports: 
 	
